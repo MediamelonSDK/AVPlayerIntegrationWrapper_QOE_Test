@@ -10,5 +10,5 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "12.0"
   spec.swift_version = '5.0'
   spec.source       = { :git => "https://github.com/MediamelonSDK/AVPlayerIntegrationWrapper_QOE_Test.git", :tag => spec.version.to_s }
-  s.source_files    = 'AVPlayerIntegrationWrapper_QOE_Test/AVPlayerIntegrationWrapper.swift'
+  s.source_files    = 'AVPlayerIntegrationWrapper.swift'
 end
